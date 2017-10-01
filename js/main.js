@@ -1,5 +1,7 @@
-get_log();
+var stacticName = 'Success';
 
-function get_log(){
-	console.log();
+get_log(stacticName);
+
+function get_log(name){
+	console.log(name);
 }
